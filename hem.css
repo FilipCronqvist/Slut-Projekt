@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	background-image:url(https://www.essentiallysports.com/wp-content/uploads/2017/05/dima-goryainov-nurburgring-2-1280x720.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+.global-meny{
+	text-align: center;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.global-meny, li, a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-size: 25px;
+}
+
+
+.Övertext {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.motorsport{
+	display: block;
+    width:1200px; 
+    height:680px;
+    margin-left: auto;
+	margin-right: auto;
+    padding: 50px;
+}
+
+.text{
+    color: #fff; 
+    font-size: 25px; 
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 0;
+    margin-bottom: 0;
+}

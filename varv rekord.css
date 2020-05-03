@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: gray;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+table {
+	border: 1px
+}
+ 
+tr, th, td {
+	font-size: 20px;
+}
+
+.global-meny, a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    font-size: 25px;
+	text-align: center;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.local-meny {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-size: 25px;
+	text-align: center;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.Övertext {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.motorsport{
+	display: block;
+    width:1200px; 
+    height:680px;
+    margin-left: auto;
+	margin-right: auto;
+    padding: 50px;
+}
+
+.text{
+    color: #fff; 
+    font-size: 20px; 
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.margin {
+ color: grey;
+ font-size: 25px;
+}
