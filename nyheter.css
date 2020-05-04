@@ -2,39 +2,38 @@
     margin: 0;
     padding: 0;
 }
-
-
+/*färg*/
 body{
     background-color: black;
     color: #fff;
 }
-
+/*storkel, plats och style */
 .global-meny{
 	text-align: center;
     list-style: none;
     margin-top: 50px;
 }
-
+/*storkel, plats, style och färg*/
 .global-meny, li, a{
+	display:inline-block;
     text-decoration: none;
     color: #fff;
     padding: 15px;
     font-size: 25px;
 }
-
-
+/*storkel, plats och färg*/
 h1 {
     text-align: center;
     font-size: 50px;
     color: #fff;
 }
-
+/*storkel, plats och färg*/
 .Övertext {
     font-size: 25px;
     color: #fff;
     text-align: center;
 }
-
+/*storkel, plats, style och färg*/
 .motorsport{
 	display: block;
     width:1200px; 
@@ -43,7 +42,7 @@ h1 {
 	margin-right: auto;
     padding: 50px;
 }
-
+/*storkel, plats, style och färg*/
 .text{
     color: #fff; 
     font-size: 15 px; 

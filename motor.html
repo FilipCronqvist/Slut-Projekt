@@ -5,7 +5,7 @@
 <head>
     <title>Slut test</title>
 	
-    <link rel="stylesheet" href="bilar.css">
+    <link rel="stylesheet" href="motor.css">
 	
 	<meta charset="UTF-8">
 	
@@ -28,15 +28,20 @@
 		<li><a href="bilar.html">Bilar</a></li>
     </ul>
 </nav>
-</center>
-<!--lite enkel text-->
-    <p class="Övertext"> Veckans Sportbil: Porsche 911 GT2 RS! </p> 
-    <p class="text">Se den senaste videon där Prosche krossar varvrekordet runt Nürburgring.</p>
-  
-<!--länkar till en video från youtube-->
-   <center>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/bsGpFTJMd0k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</center>
+
+<!--enkel "login" ruta för att "låsa upp" lästa sida(inget specielt anv/lösn krävs.-->
+	<form action="motorsport.html" method="get">
+		<legend>Logga in för att se bilen</legend>
 	
+			<label for="user">Användarnamn</label>
+			<input type="textbox" id="user" name="Användarnamn">
+			
+			<label for="pass">Password</label>
+			<input type="password" id="pass" name="Password">
+			
+			<input type="submit" value="Logga in">
+	</form>
+</center>
+
 </body>
 </html>
